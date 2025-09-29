@@ -17,28 +17,49 @@ public class main {
 
             }
 
-
-
          */
 
         Interface new_user_interface = new Interface();                     // create new interface
 
-        TO_do_list new_user_list = new TO_do_list();                        // new user data
+        To_do_list new_user_list = new To_do_list();                        // new user data
 
-        while () {
+        new_user_list.add("Buy milk");
+        new_user_list.add("Buy eggs");
+        new_user_list.add("Prepare a lesson for CSC 122");
+        new_user_list.add("Sow beet seeds");
 
-            new_user_list.
+        new_user_list.complete("Buy eggs");
 
-            // display current list and recently removed list and options
+        // Pretty prints a list of each of the four tasks above
+        new_user_list.all();
 
-            // prompt for user input
+        // Pretty prints the task "Buy eggs"
+        new_user_list.complete("buy milk");
 
-            // choices
+        // Pretty prints the tasks "Buy milk",
+        // "Prepare a lesson for CSC 122", and "Sow beet seeds"
+        new_user_list.complete("");
 
-            // execute choices
+        // Clears the to-do list
+        new_user_list.clear();
+
+        // Pretty prints a message saying that the list is empty
+        new_user_list.all();
 
 
-        }
+
+//        while () {
+//
+//            // display current list and recently removed list and options
+//
+//            // prompt for user input
+//
+//            // choices
+//
+//            // execute choices
+//
+//
+//        }
 
     }
 
